@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+    border: 2px solid black;
+}
+.h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+form{
+    display: flex;
+    gap: 0 40px;
+    margin-left: 69px;
+}
+input{
+    width: 1104px;
+    height: 61px;
+    font-size: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+button{
+    padding: 17px 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+}
+.container__box{
+    width: 1308px;
+    height: 737px;
+    margin: auto;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 14px;
+    margin-top: 60px;
+}
+.first-word{
+    margin-left: 32px;
+    padding-top: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+.definition{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    margin-top: 23px;
+    margin-left: 32px;
+}
+.example{
+    margin-left: 64px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.audio{
+    margin-top: 41px;
+    margin-left: 38px;
+}
